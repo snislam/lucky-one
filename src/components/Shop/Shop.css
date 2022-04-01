@@ -38,11 +38,7 @@
     color: aliceblue;
 }
 
-.selected-products {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+
 
 .slect-btn {
     color: #fff;
@@ -64,4 +60,22 @@
     border: none;
     border-radius: 8px;
     background: gold;
+}
+
+@media only screen and (max-width: 576px) {
+    .shop {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .product-container {
+        display: block;
+        padding: 30px 13%;
+    }
+
+    .selector-machine {
+        height: auto;
+        position: inherit;
+        background-color: #2F3A8F;
+    }
 }

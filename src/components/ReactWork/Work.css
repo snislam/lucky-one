@@ -26,4 +26,8 @@
     .answer-section {
         display: block;
     }
+
+    .answer {
+        margin-bottom: 30px;
+    }
 }
