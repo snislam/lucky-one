@@ -38,6 +38,10 @@ const Shop = () => {
         setSelectedItems([]);
     }
 
+    const deleteItem = (item) => {
+        const newSelectedItems = selectedItems.filter(sItem => sItem.id !== item.id);
+        setSelectedItems(newSelectedItems);
+    }
 
     return (
         <div className='shop'>
@@ -50,7 +54,7 @@ const Shop = () => {
                 <h2>Select Your Product</h2>
                 <div className="machine-body">
                     {
-                        selectedItems.map(item => <Item item={item} key={item.id}></Item>)
+                        selectedItems.map(item => <Item deleteItem={deleteItem} item={item} key={item.id}></Item>)
                     }
 
                     <button onClick={selectProduct} className='slect-btn'>Select the best one</button>
