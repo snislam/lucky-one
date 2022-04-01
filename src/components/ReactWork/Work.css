@@ -1,0 +1,29 @@
+.answer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 50px 100px;
+}
+
+.answer {
+    padding: 20px;
+    font-family: 'Lato';
+    line-height: 30px;
+    border: 1px solid gainsboro;
+}
+
+.answer h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.answer p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .answer-section {
+        display: block;
+    }
+}
