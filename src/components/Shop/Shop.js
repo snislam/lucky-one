@@ -51,7 +51,7 @@ const Shop = () => {
                 }
             </div>
             <div className="selector-machine">
-                <h2>Select Your Product</h2>
+                <h2>Selected Product</h2>
                 <div className="machine-body">
                     {
                         selectedItems.map(item => <Item deleteItem={deleteItem} item={item} key={item.id}></Item>)
