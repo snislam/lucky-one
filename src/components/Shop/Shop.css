@@ -18,6 +18,12 @@
     background-color: #2F3A8F;
 }
 
+.selector-machine img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
 .selector-machine h2 {
     text-align: center;
     color: #fff;
@@ -30,6 +36,12 @@
 .machine-body {
     padding: 20px;
     color: aliceblue;
+}
+
+.selected-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .slect-btn {
