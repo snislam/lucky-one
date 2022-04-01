@@ -18,6 +18,12 @@ const Shop = () => {
             </div>
             <div className="selector-machine">
                 <h2>Select Your Product</h2>
+                <div className="machine-body">
+                    <li>Item one</li>
+
+                    <button className='slect-btn'>Select the best one</button>
+                    <button className='select-again-btn'>Select again</button>
+                </div>
             </div>
         </div>
     );

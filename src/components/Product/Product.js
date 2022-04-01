@@ -10,7 +10,7 @@ const Product = (props) => {
             <img src={img} alt="" />
             <div className="product-info">
                 <h3>{name}</h3>
-                <p>{price}</p>
+                <p>Price: ${price}</p>
             </div>
             <button className='cart-btn'>Add To Cart <FontAwesomeIcon className='fa-cart-icon' icon={faCartShopping}></FontAwesomeIcon> </button>
         </div>
