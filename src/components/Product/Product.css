@@ -1,0 +1,37 @@
+.product {
+    width: 300px;
+    height: 480px;
+    position: relative;
+    border: 1px solid tomato;
+    border-radius: 8px;
+    background-color: lightgray;
+}
+
+.product img {
+    width: 286px;
+    height: 286px;
+    margin: 8px 7px;
+    border-radius: 8px;
+}
+
+.product-info {
+    margin: 15px;
+}
+
+.cart-btn {
+    width: 100%;
+    color: blue;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+}
+
+.fa-cart-icon {
+    margin-left: 10px;
+}
