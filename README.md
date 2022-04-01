@@ -8,3 +8,5 @@
 In this project is build with react. This objective is to add selected products and then find one randomly.
 
 It is only responsive for mobile device.
+
+### Happy shopping
